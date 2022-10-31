@@ -1,0 +1,46 @@
+.nav{
+    background-color: #595496;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    border-bottom:1px solid aliceblue;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: aliceblue;
+    font-size: xx-large;
+}
+.navItem{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.navButton{
+    margin: auto;
+    width: 7vw;
+    border: none;
+    height: 30px;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #595496;
+}
+.navBtn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+.navIcon{
+    color: aliceblue;
+    font-size: 20px;
+
+}

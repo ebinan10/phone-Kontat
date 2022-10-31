@@ -1,0 +1,71 @@
+.updateContact{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.updateContactContainer{
+    width: 30%;
+    box-sizing: border-box;
+    max-width: 1024px;
+    align-items: center;
+    border-radius: 0px 0px 5px 5px;
+    outline: none !important;
+    border-color: #595496;
+    box-shadow: 0 0 10px #595496;
+    
+}
+.updateContactForm{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.updateContactForm{
+    margin: 0;
+    width: 100%;
+}
+.updateContactDesc{
+    margin: 0;
+    background-color: #595496;
+    color: aliceblue;
+    padding: 20px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.updateContactInput{
+    border: none;
+    height: 35px;
+    width: 20vw;
+    margin: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+    background-color:white ;
+    box-shadow: 0 0 10px #595496;
+}
+input:focus {
+    border: none;
+  }
+  .updateContactLabel{
+    background-color: rgb(253, 253, 255);
+  }
+
+  .updateContactBtn{
+    margin: 20px;
+    margin-bottom: 30px;
+    width: 75%;
+    background: #595496;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   input:focus { 
+    outline: none !important;
+    border-color: #595496;
+    box-shadow: 0 0 10px #595496;
+ }
